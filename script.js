@@ -1,28 +1,11 @@
-/*
-  Rock Paper Scissors SOLUTION 🚀🔥
-  Concepts covered in this project
-    👉 For loops
-    👉 Dom Manipulation
-    👉 Variables
-    👉 Conditionals (if else if)
-    👉 Template Literals
-    👉 Event Listeners
-    👉 Higher order Function (Math.random())
-*/
 
-// ** getComputerChoice randomly selects between `rock` `paper` `scissors` and returns that string **
-// getComputerChoice() 👉 'Rock'
-// getComputerChoice() 👉 'Scissors'
 function getComputerChoice() {
   let rpsChoices = ['Rock', 'Paper', 'Scissors']
   let computerChoice = rpsChoices[Math.floor(Math.random() * 3)]
   return computerChoice
 }
 
-// ** getResult compares playerChoice & computerChoice and returns the score accordingly **
-// human wins - getResult('Rock', 'Scissors') 👉 1
-// human loses - getResult('Scissors', 'Rock') 👉 -1
-// human draws - getResult('Rock', 'Rock') 👉 0
+
 function getResult(playerChoice, computerChoice) {
   // return the result of score based on if you won, drew, or lost
   
